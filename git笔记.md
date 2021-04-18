@@ -28,13 +28,14 @@
 
 - ### 添加到git暂存区    <font color='red'>git add test1.txt</font>
 
-- ### 提交操作             <font color='red'>git commit -m '提交描述'</font>
+- ### 提交操作             <font color='red'>git commit -m '提交描述'</font>  ==只是提交到本地仓库==
 
 
 
 ## 5.修改文件
 
-### 修改文件后，按照添加文件的步骤commit即可
+- ### 修改文件后，按照添加文件的步骤commit即可
+
 
 
 
@@ -45,3 +46,16 @@
 - ### 从git中删除    <font color='red'>git rm test1.txt</font>
 
 - ### 提交操作       <font color='red'>git commit -m '提交描述'</font>
+
+## 
+
+## 7.Git远程仓库
+
+- ### 提交到远程仓库    <font color='red'>git  push</font>
+
+
+
+## 8.克隆远程仓库到本地
+
+- ### <font color='red'>git  clone 仓库地址</font>
+
