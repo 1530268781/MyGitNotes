@@ -1,12 +1,30 @@
 # Git基础命令
 
-## 1.Git基础设置
+## 1.设置签名
 
-- ### 设置用户名	<font color='red'>git config --global user.name 'zlx1530268781'</font>
+### （1）项目级别/仓库级别：
 
-- ### 设置用户邮箱 <font color='red'>git config --global user.email '1530268781@qq.com'</font>
+仅在当前本地库范围内有效
 
-- ### 查看设置        <font color='red'>git config --list</font>
+- #### 设置用户名	<font color='red'>git config --global user.name 'zlx1530268781'</font>
+
+- #### 设置用户邮箱 <font color='red'>git config --global user.email '1530268781@qq.com'</font>
+
+- #### 查看设置        <font color='red'>git config --list</font>
+
+信息保存位置：./.git/config 文件
+
+
+
+### （2）系统用户级别：
+
+登录当前操作系统的用户范围
+
+- #### <font color='red'>git config user.name ‘用户名’</font>
+
+- #### <font color='red'>git config user.email  ‘邮箱’</font>
+
+<font color='cornflowerblue'>注意：这里设置的签名和登录远程库(代码托管中心)的账号、密码没有任何关 系。 </font>
 
 ## 2.创建一个Git仓库
 
@@ -20,7 +38,7 @@
 
 <img src="git笔记.assets/image-20210418162656580.png" alt="image-20210418162656580" style="zoom:50%;" />
 
-
+- #### 查看工作区、暂存区状态：<font color='red'>git status</font>
 
 ## 4.向仓库添加文件
 
@@ -51,7 +69,7 @@
 
 ## 7.Git远程仓库
 
-- ### 提交到远程仓库    <font color='red'>git  push</font>
+- ### 提交到远程仓库    <font color='red'>git  push  origin  master</font>
 
 
 
@@ -61,4 +79,10 @@
 
 
 
-## 9.
+## 9.查看历史记录
+
+- #### git log
+
+- #### git log --pretty=oneline
+
+- #### git log --oneline
